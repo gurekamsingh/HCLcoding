@@ -36,6 +36,14 @@ def get_user_highest_session(file_path):
             max_user = user
     return max_user, int(max_time)
     
+# Time Complexity:
 
-        
+# Reading file: O(n)
 
+# Sorting sessions per user: O(k log k), where k is number of logs per user
+
+# Total: O(n + u·k log k)
+
+# Space Complexity:
+
+# O(n) for storing all sessions
