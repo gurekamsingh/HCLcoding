@@ -1,0 +1,6 @@
+user1 clicked
+user2 clicked
+user1 clicked
+user3 clicked
+user2 clicked
+user1 clicked
