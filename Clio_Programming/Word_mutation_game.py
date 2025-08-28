@@ -20,3 +20,12 @@ def mutated_word(words):
 
 words = ["Gurekam", "keyboard", "monitor", "printer", "router"]
 print(mutated_word(words))  # Output: ['makureG', 'ekdraoby', 'ritonmo', 'nterpri', 'terou']
+
+
+# Time Complexity:
+
+# O(n·m), where n = number of words, m = average length of word
+
+# Space Complexity:
+
+# O(n·m) for the result list
